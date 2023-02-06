@@ -1,0 +1,14 @@
+#maindiv{
+    display: grid;grid-column-gap: 20px;grid-template-rows: 400px auto;
+    div{
+        img{
+            padding-left: 30%;
+        }
+        h1{
+            font-family: Arial, Helvetica, sans-serif;
+            span{
+                font-family: Arial, Helvetica, sans-serif;color: blanchedalmond;
+            }
+        }
+    }
+}

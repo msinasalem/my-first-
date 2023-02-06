@@ -1,0 +1,17 @@
+body {
+  display: grid;
+  grid-column-gap: 20px;
+  grid-template-rows: 400px auto;
+}
+body div img {
+  padding-left: 30%;
+}
+body div h1 {
+  font-family: Arial, Helvetica, sans-serif;
+}
+body div h1 span {
+  font-family: Arial, Helvetica, sans-serif;
+  color: blanchedalmond;
+}
+
+/*# sourceMappingURL=gittry.css.map */
