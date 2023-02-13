@@ -1,14 +1,12 @@
-#maindiv{
-    display: grid;grid-column-gap: 20px;grid-template-rows: 400px auto;
-    div{
-        img{
-            padding-left: 30%;
-        }
-        h1{
-            font-family: Arial, Helvetica, sans-serif;
-            span{
-                font-family: Arial, Helvetica, sans-serif;color: blanchedalmond;
-            }
+a{
+    font-family: Arial, Helvetica, sans-serif;
+}
+#top{
+    background-color: rgb(50, 50, 50);display: grid;grid-template-columns:50px min-content min-content min-content min-content min-content 400px auto;
+    #a{
+        background-color: blue;
+        #treakybutton{
+            margin-left: 96%;
         }
     }
 }

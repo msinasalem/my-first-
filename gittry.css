@@ -1,17 +1,17 @@
-body {
+a {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#top {
+  background-color: rgb(50, 50, 50);
   display: grid;
-  grid-column-gap: 20px;
-  grid-template-rows: 400px auto;
+  grid-template-columns: 50px min-content min-content min-content min-content min-content 400px auto;
 }
-body div img {
-  padding-left: 30%;
+#top #a {
+  background-color: blue;
 }
-body div h1 {
-  font-family: Arial, Helvetica, sans-serif;
-}
-body div h1 span {
-  font-family: Arial, Helvetica, sans-serif;
-  color: blanchedalmond;
+#top #a #treakybutton {
+  margin-left: 96%;
 }
 
 /*# sourceMappingURL=gittry.css.map */
