@@ -1,12 +1,30 @@
-a{
-    font-family: Arial, Helvetica, sans-serif;
-}
+$font: Arial, Helvetica, sans-serif;
+$color: rgb(50, 50, 50);
+$margin: 25px;
 #top{
-    background-color: rgb(50, 50, 50);display: grid;grid-template-columns:50px min-content min-content min-content min-content min-content 400px auto;
-    #a{
-        background-color: blue;
-        #treakybutton{
-            margin-left: 96%;
-        }
+    background-color:$color;display: grid;grid-template-columns:50px max-content max-content max-content max-content max-content max-content max-content auto;
+    #iconbutton{
+        width: 850px;
+    }
+    #b{
+        width: 50%;
+    }
+    #logo:hover{
+        cursor: pointer;
+    }
+    #search{
+        background-color: $color;color: white;margin-top: $margin;border-radius: 5px;border-color: white;
+    }
+    .buttons{
+        border: none;width: max-content;margin-top: $margin;font-family:$font;background-color: $color;color: white;font-weight: bold;
+    }
+    .buttons:hover{
+        cursor: pointer;
+    }
+    select{
+        border: none;background-color: $color;margin-left: 50%;
+    }
+    label:hover,select:hover{
+        cursor: pointer;
     }
 }

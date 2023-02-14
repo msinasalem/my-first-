@@ -7,29 +7,51 @@
     <body>
         <div id="top">
             <div>
-                <img src="githublogo.png" alt="githublogo">
+                <img src="githublogo.png" alt="githublogo" id="logo">
             </div>
-            <div><input type="text" placeholder="search or jump to..."></div>
-            <div><button>Pull Request</button></div>
-            <div><button>Issues</button></div>
-            <div><button>Code Spaces</button></div>
-            <div><button>Marketplace</button></div>
-            <div><button>Explore</button></div>
-            <div id="a">
-                <button id="treakybutton">abs</button>
+            <div><input type="text" placeholder="search or jump to..." id="search" style="margin-left: 5px;"></div>
+            <div><button class="buttons" style="margin-left: 5px;">Pull Request</button></div>
+            <div><button class="buttons">Issues</button></div>
+            <div><button class="buttons">Code Spaces</button></div>
+            <div><button class="buttons">Marketplace</button></div>
+            <div><button class="buttons">Explore</button></div>
+            <div id="iconbutton">
+                <button class="buttons" style="margin-top: 20px; margin-left: 96%">
+                    <img src="bell.png" alt="bell">
+                </button>
             </div>
             <div>
-                <label for="l1"></label>
-                <select name="l1" id="l1">
-                    <option value="New repository"></option>
-                    <option value="Import repository"></option>
-                    <option value="New codespace"></option>
-                    <option value="New gist"></option>
-                    <option value="New organization"></option>
+                <label for="c"><img src="plus.png" alt="plus"></label>
+                <select name="b" id="b">
+                    <option value="New repository">New repository</option>
+                    <option value="Import repository">Import repository</option>
+                    <option value="New codespace">New codespace</option>
+                    <option value="New gist">New gist</option>
+                    <option value="New organization">New organization</option>
                 </select>
             </div>
         </div>
-        <div></div>
+        <div id="middle">
+            <div><img src="bookmark.png" alt="repository"></div>
+            <div>
+                <h1 id="header">
+                    <span>
+                        <a href="https://github.com/msinasalem">msinasalem</a>
+                    </span>
+                    /
+                    <span>
+                        <a href="https://github.com/msinasalem/my-first-">my-first-</a>
+                    </span>
+                </h1>
+            </div>
+            <div>
+                <p>Public</p>
+            </div>
+            <div><button>pin</button></div>
+            <div><button>unwatch</button></div>
+            <div><button>fork</button></div>
+            <div><button>star</button></div>
+        </div>
         <div></div>
     </body>
 </html>
