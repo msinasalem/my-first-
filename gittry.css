@@ -40,4 +40,36 @@
   cursor: pointer;
 }
 
+#middle {
+  display: grid;
+  grid-template-columns: max-content max-content max-content max-content max-content max-content max-content;
+  background-color: whitesmoke;
+}
+#middle #logo2 {
+  margin-top: 50%;
+}
+#middle #header {
+  font-size: 22px;
+  text-decoration-line: none;
+  margin-left: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+#middle #header:hover {
+  text-decoration: underline;
+  text-decoration-color: #0000EE;
+}
+#middle #large {
+  width: 700px;
+  background-color: blue;
+}
+#middle #large span {
+  border: solid;
+  border-width: 2px;
+  border-color: gray;
+  border-radius: 100px;
+  margin-left: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 10px;
+}
+
 /*# sourceMappingURL=gittry.css.map */

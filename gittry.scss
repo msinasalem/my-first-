@@ -28,3 +28,21 @@ $margin: 25px;
         cursor: pointer;
     }
 }
+#middle{
+    display: grid;grid-template-columns: max-content max-content max-content max-content max-content max-content max-content;background-color: whitesmoke;
+    #logo2{
+        margin-top: 50%;
+    }
+    #header{
+        font-size: 22px;text-decoration-line: none;margin-left: 10px;font-family: $font;
+    }
+    #header:hover{
+        text-decoration: underline;text-decoration-color: #0000EE;
+    }
+    #large{
+        width: 700px;background-color:blue;
+        span{
+            border: solid;border-width: 2px;border-color: gray;border-radius: 100px;margin-left: 10px;font-family: $font;margin-top: 10px;
+        }
+    }
+}
