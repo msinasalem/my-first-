@@ -53,6 +53,7 @@
   text-decoration-line: none;
   margin-left: 10px;
   font-family: Arial, Helvetica, sans-serif;
+  margin-top: 15px;
 }
 #middle #header:hover {
   text-decoration: underline;
