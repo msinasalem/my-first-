@@ -3,6 +3,7 @@
     <head>
         <title>My github</title>
         <link rel="stylesheet" href="gittry.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     </head>
     <body>
         <div id="top">
@@ -45,12 +46,31 @@
                 </h1>
             </div>
             <div id="large">
-                <span>Public</span>
+                <p style="margin-left: 10px;margin-top: 10px;padding-top: 10px;"><span>Public</span></p>
             </div>
-            <div><button>pin</button></div>
-            <div><button>unwatch</button></div>
-            <div><button>fork</button></div>
-            <div><button>star</button></div>
+            <div><button class="button"><span><img src="pin.png" alt="pin"></span>Pin</button></div>
+            <div>
+                <div class="dropdown">
+                    <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                      <span><img src="eye.png" alt="eye"></span>Unwatch
+                    </button>
+                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                        <p>Notifications</p>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="#">Participating and @mentions</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="#">All activities</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="#">ignore</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="#">Custom</a>
+                        <div class="dropdown-divider"></div>
+                        <p>Get push notifications on <span style="color: #0000EE;">IOS</span> or <span style="color: #0000EE;">Android</span></p>
+                    </div>
+                  </div>
+            </div>
+            <div><button class="button">fork</button></div>
+            <div><button class="button">star</button></div>
         </div>
         <div></div>
     </body>
